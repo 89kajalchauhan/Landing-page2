@@ -1,0 +1,106 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+ 
+#main{
+    height: 100%;
+    width: 100%;
+    /*background-color: red;*/
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main img{
+     height: 450px;
+     position: relative;
+     z-index: 99;
+}
+
+#scroll-div{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    height: 100px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#scroll-div::-webkit-scrollbar{
+    display: none;
+}
+
+#scroll-div h1{
+    display: inline-block;
+    font-size: 110px;
+    text-transform: uppercase;
+    margin-right: 30px;
+    letter-spacing: 4px;
+    font-family: monument;
+
+}
+
+#scroll-div2{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+    white-space: nowrap;
+    color: transparent;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+}
+
+#scroll-div2::-webkit-scrollbar{
+    display: none;
+}
+
+#scroll-div2 h1{
+    display: inline-block;
+    font-size: 110px;
+    text-transform: uppercase;
+    margin-right: 30px;
+    letter-spacing: 4px;
+    font-family: monument;
+
+}
+
+#scroll-div3{
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    height: 100px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#scroll-div3::-webkit-scrollbar{
+    display: none;
+}
+
+#scroll-div3 h1{
+    display: inline-block;
+    font-size: 110px;
+    text-transform: uppercase;
+    margin-right: 30px;
+    letter-spacing: 4px;
+    font-family: monument;
+
+}
